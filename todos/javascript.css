@@ -1,0 +1,97 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Duru Sans', sans-serif;
+  background-image: url('img/doodle_bear.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #FDFDFC;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin-heading {
+  text-transform: uppercase;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.todo {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+ /* padding: 10px 10px 10px 10px;*/
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.checkmark, .x-mark {
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 40px;
+  height: 25px;
+  margin: auto 0;
+  font-size: 22px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.checkmark {
+  color: #63A756;
+}
+
+.x-mark {
+  color: #BE5E5E;
+}
+
+.x-mark:hover {
+  text-shadow: 0 0 1px #000, 0 0 10px rgba(189, 114, 90, 0.8);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+}
+
+.checkmark:hover {
+  text-shadow: 0 0 1px #000, 0 0 10px rgba(32, 167, 43, 0.8);
+   -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: #FDFDFC;
+}
+
+.done .checkmark {
+  display: none;
+}
