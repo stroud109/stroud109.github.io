@@ -188,7 +188,8 @@ body {
 }
 
 .steph-projects {
-    background-image: url('../img/candyhole/candyhole.png');
+    /*background-image: url('../img/candyhole/candyhole.png');*/
+    background-color: #FFFFFD;
     color: #333;
     text-shadow: none;
 }
