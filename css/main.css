@@ -144,26 +144,24 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .page-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+/* Pull out the header and footer */
+.masthead {
+position: fixed;
+top: 0;
+}
+.mastfoot {
+position: fixed;
+bottom: 0;
+}
+/* Start the vertical centering */
+.page-wrapper-inner {
+vertical-align: middle;
+}
+/* Handle the widths */
+.masthead,
+.mastfoot,
+.cover-container {
+width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 @media (min-width: 992px) {
@@ -190,8 +188,6 @@ body {
 .steph-projects {
     background-image: url('../img/sunset.png');
     background-color: #FFFFFD;
-    /*color: #444349;
-    text-shadow: none;*/
 }
 
 .origins {
@@ -208,7 +204,6 @@ float: left;
 background: #CC7453;
 opacity: .75;
 overflow: hidden;
-/*border: solid 2px rgba(33,33,33,.25);*/
 }
 
 .project-tile:hover {
@@ -236,5 +231,6 @@ background: #B96B4D;
     margin-left: 15px;
     margin-right: 15px;
     font-size: 16px;
+    text-align: left;
 }
 
