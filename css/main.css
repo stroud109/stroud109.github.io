@@ -186,8 +186,10 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-projects {
-    background-image: url('../img/sunset.png');
-    background-color: #FFFFFD;
+    /*background-image: url('../img/sunset.png');*/
+    color: #5C606B;
+    background-color: #FAF8F8;
+    text-shadow: none;
 }
 
 .origins {
@@ -201,13 +203,13 @@ width: 100%;
 height: 320px;
 position: relative;
 float: left;
-background: #CC7453;
-opacity: .75;
+background: #F3EBEB;
 overflow: hidden;
+color: #5C606B;
 }
 
 .project-tile:hover {
-background: #B96B4D;
+background: #E7E0DD;
 }
 
 .project-img {
@@ -216,20 +218,17 @@ background: #B96B4D;
 }
 
 .project-tile-header {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 20px;
 }
 
 .project-tile-text {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 30px;
     text-align: left;
     font-size: 19px;
 }
 
 .project-tile-points {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 20px;
     font-size: 16px;
     text-align: left;
 }
