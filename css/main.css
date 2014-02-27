@@ -206,6 +206,7 @@ float: left;
 background: #F3EBEB;
 overflow: hidden;
 color: #5C606B;
+border-radius: 3px;
 }
 
 .project-tile:hover {
