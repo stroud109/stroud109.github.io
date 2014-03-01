@@ -201,6 +201,7 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 .project-tile {
 width: 100%;
 height: 320px;
+margin-bottom: 15px;
 position: relative;
 float: left;
 background: #F3EBEB;
@@ -228,9 +229,58 @@ background: #E7E0DD;
     font-size: 19px;
 }
 
+@media (max-width: 1200px) {
+    .project-tile-text {
+        margin: 20px;
+        text-align: left;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-tile-text {
+        margin: 30px;
+        text-align: left;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 360px) {
+    .project-tile-text {
+        margin: 20px;
+        text-align: left;
+        font-size: 16px;
+    }
+}
+
+
 .project-tile-points {
     margin: 20px;
     font-size: 16px;
     text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .project-tile-points {
+    margin: 20px;
+    font-size: 13px;
+    text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+  .project-tile-points {
+    margin: 20px;
+    font-size: 16px;
+    text-align: left;
+    }
+}
+
+@media (max-width: 360px) {
+    .project-tile-points {
+    margin: 20px;
+    font-size: 13px;
+    text-align: left;
+    }
 }
 
