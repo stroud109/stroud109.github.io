@@ -186,7 +186,7 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-projects {
-    /*background-image: url('../img/sunset.png');*/
+    background-image: url('../img/shattered/shattered.png');
     color: #5C606B;
     background-color: #FAF8F8;
     text-shadow: none;
@@ -204,14 +204,16 @@ height: 320px;
 margin-bottom: 15px;
 position: relative;
 float: left;
-background: #F3EBEB;
+background: #F1F0F0;
 overflow: hidden;
 color: #5C606B;
 border-radius: 3px;
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
 }
 
 .project-tile:hover {
-background: #E7E0DD;
+background: #FAF8F8;
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
 }
 
 .project-img {
