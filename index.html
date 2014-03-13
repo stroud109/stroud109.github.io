@@ -40,10 +40,10 @@
 
     <div id="intro" class="steph-intro">
       <div class="container clearfix">
-        <div class="page-wrapper">
+        <div class="page-wrapper-header">
           <div class="page-wrapper-inner origins">
               <h1 class="cover-heading">Stephanie Stroud</h1>
-              <p class="lead">Fullstack web developer by day, doodler by night</p>
+              <p class="about-text">Fullstack web developer by day, doodler by night</p>
               <img src="img/origins2.png" width="300"height="300">
           </div>
         </div>
@@ -51,12 +51,12 @@
     </div>
     <div id="about" class="steph-about">
       <div class="container clearfix">
-        <div class="page-wrapper">
+        <div class="page-wrapper-body">
           <div class="page-wrapper-inner">
             <div class="row">
               <div class="col-lg-10 col-lg-offset-1">
               <h1 class="cover-heading">About</h1>
-              <p class="lead">
+              <p class="about-text">
                 I have a master's degree in Communication, Culture and Technology, which basically means I like to geek out about how technology development affects social infrastructures, and vice versa. I'm passionate about building creative, meaningful solutions to real-world problems, and I especially like working in Python.</p>
               </div>
             </div>
@@ -66,7 +66,7 @@
     </div>
     <article id="projects" class="steph-projects">
       <div class="container clearfix">
-        <div class="page-wrapper">
+        <div class="page-wrapper-body">
           <div class="page-wrapper-inner">
               <h1 class="cover-heading">A Smattering of Projects</h1>
               <br/>
@@ -142,9 +142,12 @@
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript">
       var resizePages = function(){
-        var winHeight = $(window).height() - 44;
-        $('.page-wrapper').each(function(){
-          $(this).css('height', winHeight);
+        var winHeight = $(window).height();
+        $('.page-wrapper-body').each(function(){
+          $(this).css('height', winHeight + 175);
+        }),
+        $('.page-wrapper-header').each(function(){
+          $(this).css('height', winHeight - 44);
         });
       };
       $(resizePages);

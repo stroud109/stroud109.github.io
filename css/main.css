@@ -38,15 +38,23 @@ body {
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-.page-wrapper {
+.page-wrapper-header {
   display: table;
   width: 100%;
   height: 650px;
   /*min-height: 100%;*/
 }
+
+.page-wrapper-body {
+  display: table;
+  width: 100%;
+  height: 750px;
+  /*min-height: 100%;*/
+}
+
 .page-wrapper-inner {
   display: table-cell;
-  vertical-align: top;
+  vertical-align: middle;
   /*padding-left: 100px;*/
   /*padding-right: 100px;*/
 }
@@ -185,6 +193,29 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
     background-image: url('../img/stardust/stardust.png');
 }
 
+.about-text {
+  margin-bottom: 20px;
+  margin-right: 18px;
+  margin-left: 18px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+@media (max-width: 418px) {
+  .about-text {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.4;
+  }
+
+  .steph-intro h1 {
+    font-size: 36px;
+    margin-right: 5px;
+  }
+}
+
 .steph-projects {
     background-image: url('../img/shattered/shattered.png');
     color: #5C606B;
@@ -231,11 +262,23 @@ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
     font-size: 19px;
 }
 
+.project-tile-points {
+    margin: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
 @media (max-width: 1200px) {
     .project-tile-text {
         margin: 20px;
         text-align: left;
         font-size: 16px;
+    }
+
+    .project-tile-points {
+    margin: 20px;
+    font-size: 13px;
+    text-align: left;
     }
 }
 
@@ -245,6 +288,12 @@ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
         text-align: left;
         font-size: 19px;
     }
+
+    .project-tile-points {
+    margin: 20px;
+    font-size: 16px;
+    text-align: left;
+    }
 }
 
 @media (max-width: 360px) {
@@ -253,36 +302,10 @@ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
         text-align: left;
         font-size: 16px;
     }
-}
 
-
-.project-tile-points {
-    margin: 20px;
-    font-size: 16px;
-    text-align: left;
-}
-
-@media (max-width: 1200px) {
-  .project-tile-points {
-    margin: 20px;
-    font-size: 13px;
-    text-align: left;
-    }
-}
-
-@media (max-width: 768px) {
-  .project-tile-points {
-    margin: 20px;
-    font-size: 16px;
-    text-align: left;
-    }
-}
-
-@media (max-width: 360px) {
     .project-tile-points {
     margin: 20px;
     font-size: 13px;
     text-align: left;
     }
 }
-
