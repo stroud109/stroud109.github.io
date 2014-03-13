@@ -212,7 +212,7 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
   .steph-intro h1 {
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: 5px;
   }
 }
