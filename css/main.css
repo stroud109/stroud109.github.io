@@ -6,7 +6,16 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #FFF;
+}
+
+.project-tile a {
+  color: #5C606B;
+}
+
+.project-tile a:hover {
+  color: #f90b70;
+  text-decoration: none;
 }
 
 /* Custom default button */
@@ -181,16 +190,16 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-intro {
-    background-color: rgb(156, 165, 185);
-    margin-top: 44px;
+  background-color: rgb(156, 165, 185);
+  margin-top: 44px;
 }
 
 .steph-intro h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .steph-about {
-    background-image: url('../img/stardust/stardust.png');
+  background-image: url('../img/stardust/stardust.png');
 }
 
 .about-text {
@@ -204,10 +213,10 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
 @media (max-width: 418px) {
   .about-text {
-  margin-bottom: 20px;
-  font-size: 17px;
-  font-weight: 200;
-  line-height: 1.4;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.4;
   }
 
   .steph-intro h1 {
@@ -218,95 +227,102 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-projects {
-    background-image: url('../img/shattered/shattered.png');
-    color: #5C606B;
-    background-color: #FAF8F8;
-    text-shadow: none;
+  background-image: url('../img/shattered/shattered.png');
+  color: #5C606B;
+  background-color: #FAF8F8;
+  text-shadow: none;
 }
 
 .origins {
-    width: 100%;
-    vertical-align: bottom;
+  width: 100%;
+  vertical-align: bottom;
 
 }
 
 .project-tile {
-width: 100%;
-height: 320px;
-margin-bottom: 15px;
-position: relative;
-float: left;
-background: #F1F0F0;
-overflow: hidden;
-color: #5C606B;
-border-radius: 3px;
-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
-}
-
-.project-tile:hover {
-background: #FAF8F8;
-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+  position: relative;
+  float: left;
+  background: #FAF8F8;
+  overflow: hidden;
+  color: #5C606B;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
 }
 
 .project-img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .project-tile-header {
-    margin: 20px;
+  margin: 20px;
 }
 
 .project-tile-text {
-    margin: 30px;
-    text-align: left;
-    font-size: 19px;
+  margin: 30px;
+  text-align: left;
+  font-size: 19px;
 }
 
 .project-tile-points {
-    margin: 20px;
-    font-size: 16px;
-    text-align: left;
+  margin: 20px;
+  font-size: 15px;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
     .project-tile-text {
-        margin: 20px;
-        text-align: left;
-        font-size: 16px;
+      margin: 20px;
+      text-align: left;
+      font-size: 16px;
     }
 
     .project-tile-points {
-    margin: 20px;
-    font-size: 13px;
-    text-align: left;
+      margin: 20px;
+      font-size: 13px;
+      text-align: left;
+    }
+}
+
+@media (max-width: 990px) {
+  .project-tile h3 {
+    font-size: 16px;
+    font-weight: 600;
     }
 }
 
 @media (max-width: 768px) {
+
+    .project-tile h3 {
+      font-size: 24px;
+    }
+
     .project-tile-text {
-        margin: 30px;
-        text-align: left;
-        font-size: 19px;
+      margin: 30px;
+      text-align: left;
+      font-size: 19px;
     }
 
     .project-tile-points {
-    margin: 20px;
-    font-size: 16px;
-    text-align: left;
+      margin: 20px;
+      font-size: 16px;
+      text-align: left;
     }
 }
 
 @media (max-width: 360px) {
     .project-tile-text {
-        margin: 20px;
-        text-align: left;
-        font-size: 16px;
+      margin: 20px;
+      text-align: left;
+      font-size: 16px;
     }
 
     .project-tile-points {
-    margin: 20px;
-    font-size: 13px;
-    text-align: left;
+      margin: 20px;
+      font-size: 16px;
+      text-align: left;
     }
 }
