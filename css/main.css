@@ -326,3 +326,26 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
       text-align: left;
     }
 }
+
+.steph-projects .current-status .project-tile {
+    background-color: #CE236B;
+    /*background-color: #2A72AA;*/
+}
+
+.steph-projects .current-status .project-tile-header {
+    color: #f8f8f8;
+}
+
+.steph-projects .current-status a {
+    color: #f8f8f8;
+}
+
+.steph-projects .current-status a:hover {
+    color: #fff;
+    text-shadow: rgba(255, 255, 255, 0.3) 1px 1px;
+}
+
+.steph-projects .current-status .project-tile-linkedin {
+    text-decoration: underline;
+}
+
