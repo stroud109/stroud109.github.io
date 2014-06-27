@@ -351,5 +351,8 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
 .steph-projects .current-status .project-tile-points {
     color: #f8f8f8;
-    /*text-decoration: underline;*/
+}
+
+.cover-heading {
+    padding-bottom: 20px;
 }
