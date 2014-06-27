@@ -328,7 +328,7 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-projects .current-status .project-tile {
-    background-color: #CE236B;
+    background-color: #5C606B;
     /*background-color: #2A72AA;*/
 }
 
@@ -345,7 +345,11 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
     text-shadow: rgba(255, 255, 255, 0.3) 1px 1px;
 }
 
-.steph-projects .current-status .project-tile-linkedin {
-    text-decoration: underline;
+.steph-projects .current-status .project-tile-work {
+    font-size: 1.2em;
 }
 
+.steph-projects .current-status .project-tile-points {
+    color: #f8f8f8;
+    /*text-decoration: underline;*/
+}
