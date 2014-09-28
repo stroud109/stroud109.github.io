@@ -263,7 +263,7 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
 .project-tile-text {
   margin: 30px;
-  text-align: left;
+  text-align: center;
   font-size: 19px;
 }
 
