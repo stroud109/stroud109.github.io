@@ -2,9 +2,8 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Duru Sans', sans-serif;
-  background-image: url('img/doodle_bear.jpeg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-image: url('img/hexellence.png');
+  background-repeat: repeat;
   background-color: #FDFDFC;
 }
 
