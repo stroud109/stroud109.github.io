@@ -13,8 +13,14 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css?family=Hind+Madurai" rel="stylesheet">
+
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
         <!-- Just for debugging purposes. Don't actually copy this line! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -28,23 +34,13 @@
 
     <body>
 
-
-        <div class="navbar navbar-default navbar-fixed-top steph-nav">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#intro">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#experience">experience</a></li>
-            </ul>
-        </div>
-
-
         <div id="intro" class="steph-intro">
             <div class="container clearfix">
                 <div class="page-wrapper-header">
                     <div class="page-wrapper-inner origins">
                         <h1 class="cover-heading">stephanie stroud</h1>
-                        <p class="about-text">software engineer by day, doodler by night</p>
-                        <img src="img/origins2.png" width="300"height="300">
+                        <p class="about-text">software engineer, coach</p>
+                        <img src="img/origins.png" width="300"height="300">
                     </div>
                 </div>
             </div>
@@ -54,40 +50,29 @@
                 <div class="page-wrapper-body">
                     <div class="page-wrapper-inner">
                         <div class="row">
-                            <div class="col-lg-11 col-lg-offset-1">
-                                <h1 class="cover-heading">about</h1>
+                            <div class="col-sm-3 col-sm-offset-1">
+                                <img src="img/headshot.png" class="img-responsive img-thumbnail">
+                            </div>
+                            <div class="col-sm-7">
                                 <p class="about-text">
-                                a few goals: write a book, see spectacular northern lights, learn to play the ukulele, speak more french
-                                <br>
-                                <p class="about-text">
-                                <a href="http://strengths.gallup.com/110440/About-StrengthsFinder-20.aspx">strengths</a>: connectedness, input, futuristic, learner, ideation</p>
-                                </p>
-                                <p class="about-text">
-                                    <a href="https://www.instagram.com/stroud109/">instagram: in the wild, with my kitty babies</a>
-                                </p>
+                                Hi there! I’m Stephanie. I believe in the power of connection and curiosity. My focus is on growing empowered communities, starting with the individuals.
+                            </p>
+                            <p class="about-text">
+                                I am a CTI-trained coach, as well as a software engineer at a healthcare startup. I have an eclectic background in French, Communications, Culture, &amp; Technology, and have worked in a variety of roles across the non-profit, government, and private sectors.
+
+                                To get in touch, send me a message at stroud109 {at} gmail {dot} com.
+                            </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <article id="experience" class="steph-projects">
-            <div class="container clearfix">
-                <div class="page-wrapper-body">
-                    <div class="page-wrapper-inner">
-                        <h1 class="cover-heading">tech</h1>
-                        <p class="project-tile-text">i like working with teams to create thoughtful, community-centered tech</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
 
-        <div id="footer">
+        <div id="footer" class="nav-footer">
             <div class="container">
             <br/>
                 <p class="text-muted"><a href="https://github.com/stroud109">github</a> • <a href="https://twitter.com/stroud109">twitter</a> • <a href="http://www.linkedin.com/in/stroud109">linkedIn</a></p>
-                <p class="text-muted">stroud109 {at} gmail {dot} com</p>
             <br/>
             </div>
         </div>
@@ -105,7 +90,7 @@
               $(this).css('height', winHeight + 90);
             }),
             $('.page-wrapper-header').each(function(){
-              $(this).css('height', winHeight - 44);
+              $(this).css('height', winHeight);
             });
           };
           $(resizePages);

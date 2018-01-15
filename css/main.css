@@ -6,23 +6,14 @@
 a,
 a:focus,
 a:hover {
-  color: #FFF;
-}
-
-.project-tile a {
-  color: #5C606B;
-}
-
-.project-tile a:hover {
-  color: #f90b70;
-  text-decoration: none;
+  color: #777;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #777;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -35,14 +26,12 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
-
 }
+
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 1px rgba(0,0,0,.15);
-  font-family: 'Duru Sans', sans-serif;
+  font-family: 'Hind Madurai', sans-serif;
   /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
 }
 
@@ -190,8 +179,9 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-intro {
-  background-color: #879BC7;
-  margin-top: 44px;
+  background-color: #eab26b;
+  color: #96211f;
+  text-shadow: none;
 }
 
 .steph-intro h1 {
@@ -199,22 +189,29 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-about {
-  background-image: url('../img/stardust/stardust.png');
+  color: #4f341c;
+  text-shadow: none;
+  text-align: left;
+}
+
+.steph-about a, .steph-about a:hover {
+    color: #4f341c;
 }
 
 .about-text {
-  margin-bottom: 20px;
+ /* margin-bottom: 20px;
   margin-right: 18px;
-  margin-left: 18px;
-  font-size: 21px;
-  font-weight: 200;
+  margin-left: 18px;*/
+  font-size: 20px;
+  font-weight: 20;
   line-height: 1.4;
+  text-shadow: none;
 }
 
 @media (max-width: 418px) {
   .about-text {
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 200;
     line-height: 1.4;
   }
@@ -226,133 +223,13 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
-.steph-projects {
-  background-image: url('../img/shattered/shattered.png');
-  color: #5C606B;
-  background-color: #FAF8F8;
-  text-shadow: none;
-}
-
 .origins {
   width: 100%;
   vertical-align: bottom;
 
 }
 
-.project-tile {
-  width: 100%;
-  height: 250px;
-  margin-bottom: 15px;
-  position: relative;
-  float: left;
-  background: #FAF8F8;
-  overflow: hidden;
-  color: #5C606B;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.33);
-}
-
-.project-img {
-  width: 100%;
-  height: auto;
-}
-
-.project-tile-header {
-  margin: 20px;
-}
-
-.project-tile-text {
-  margin: 30px;
-  text-align: center;
-  font-size: 19px;
-}
-
-.project-tile-points {
-  margin: 20px;
-  font-size: 15px;
-  text-align: left;
-}
-
-@media (max-width: 1200px) {
-    .project-tile-text {
-      margin: 20px;
-      text-align: left;
-      font-size: 16px;
-    }
-
-    .project-tile-points {
-      margin: 20px;
-      font-size: 13px;
-      text-align: left;
-    }
-}
-
-@media (max-width: 990px) {
-  .project-tile h3 {
-    font-size: 16px;
-    font-weight: 600;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .project-tile h3 {
-      font-size: 24px;
-    }
-
-    .project-tile-text {
-      margin: 30px;
-      text-align: left;
-      font-size: 19px;
-    }
-
-    .project-tile-points {
-      margin: 20px;
-      font-size: 16px;
-      text-align: left;
-    }
-}
-
-@media (max-width: 360px) {
-    .project-tile-text {
-      margin: 20px;
-      text-align: left;
-      font-size: 16px;
-    }
-
-    .project-tile-points {
-      margin: 20px;
-      font-size: 16px;
-      text-align: left;
-    }
-}
-
-.steph-projects .current-status .project-tile {
-    background-color: #5C606B;
-    /*background-color: #2A72AA;*/
-}
-
-.steph-projects .current-status .project-tile-header {
-    color: #f8f8f8;
-}
-
-.steph-projects .current-status a {
-    color: #f8f8f8;
-}
-
-.steph-projects .current-status a:hover {
-    color: #fff;
-    text-shadow: rgba(255, 255, 255, 0.3) 1px 1px;
-}
-
-.steph-projects .current-status .project-tile-work {
-    font-size: 1.2em;
-}
-
-.steph-projects .current-status .project-tile-points {
-    color: #f8f8f8;
-}
-
 .cover-heading {
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
+    /*margin-left: 18px;*/
 }
