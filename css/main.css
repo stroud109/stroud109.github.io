@@ -179,8 +179,8 @@ width: 100%; /* Must be percentage or pixels for horizontal alignment */
 }
 
 .steph-intro {
-  background-color: #eab26b;
-  color: #96211f;
+  background-color: #f5f5f5;
+  color: #555;
   text-shadow: none;
 }
 
